@@ -85,3 +85,7 @@ We make use of the following hooks for Reconciliation
 ## Performance
 
 The solution was tested for 2 applications, one SaaS and one with RCS, and 3,000 users. There was no observable performance impact. This is not a scientific observation since no JVM, IDM server level metrics were captured. We measured it using the computer clock.
+
+## Scripts
+1. ![postAction on Account Create](./scripts/postActionOnAccountCreate.js)
+2. ![postAction on Account Update](./scripts/postActionUpdateAccount.js)
