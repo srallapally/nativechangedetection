@@ -15,11 +15,3 @@ This document describes a customization developed to provide the following capab
 * There exists a way to get a list of accounts, orphan or otherwise, with account data
 * There exists a way to detect changes in account attributes, regardless of whether they are entitlements or not
 * There exists a way to take action on accounts that have unsanctioned changes
-
-**Solution description**
-
-The solution leverages the following capabilities
-* Ability to create custom managed objects
-* Ability to add pre-, post-hooks on implicit sync (provisioning) and inbound sync (reconciliation)
-* Ability to run custom scheduled jobs where the job can execute custom business logic
-
