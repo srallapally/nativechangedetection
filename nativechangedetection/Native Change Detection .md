@@ -89,3 +89,4 @@ The solution was tested for 2 applications, one SaaS and one with RCS, and 3,000
 ## Scripts
 1. ![postAction on Account Create](./scripts/postActionOnAccountCreate.js)
 2. ![postAction on Account Update](./scripts/postActionUpdateAccount.js)
+3. ![Response script for ABSENT situation](./scripts/absentResponse.js)
