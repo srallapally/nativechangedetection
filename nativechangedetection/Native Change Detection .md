@@ -1,30 +1,5 @@
-# Native Change Detection in IDM
 
-## Summary
-
-This document describes a customization developed to address actionable rogue account/ rogue change detection for CVR Energy
-
-## Problem Statement
-
--   CVR Energy wants to detect un-sanctioned changes in user accounts in applications as part of target reconciliation (or inbound sync). The changes can be in one or more single or multi-valued attributes, which may or may not be entitlements.
-
--   Once the changes are detected, they want the ability to take action which includes but is not limited to sending an email, creating an incident or other actions.
-
--   They want the ability to accept the changes or reject the changes and overwrite the data in the target application based on their business criteria
-
-## Related RFE
-
-CVR Energy uses Active Directory (on-premises, multiple domains), Azure AD Connect and Exchange (SaaS and on-premises). There needs to be a way to provision mailboxes taking into account the delay in AD - Entra ID sync. They have a job that runs hourly for mailbox provisioning. They need to know when the AD account was created so that they can trigger Exchange mailbox provisioning
-
-## Customer expectations
-
--   There exists a way to get a list of accounts, orphan or otherwise, with account data
-
--   There exists a way to detect changes in account attributes, regardless of whether they are entitlements or not
-
--   There exists a way to take action on accounts that have unsanctioned changes
-
-## Solution description
+# Solution description
 
 The solution leverages the following AIC capabilities
 
