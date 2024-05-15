@@ -15,3 +15,5 @@ This project describes a customization developed to provide the following capabi
 * There exists a way to get a list of accounts, orphan or otherwise, with account data
 * There exists a way to detect changes in account attributes, regardless of whether they are entitlements or not
 * There exists a way to take action on accounts that have unsanctioned changes
+
+![Solution details\(./nativechangedetection/x.md)
