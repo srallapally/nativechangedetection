@@ -29,7 +29,6 @@ MO instances are updated
 
 2.  When account updates are brought in as part of target reconciliation
 
-3.  
 
 We make use of the following hooks for Provisioning (the screenshot is representative)
 
