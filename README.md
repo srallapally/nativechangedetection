@@ -1,6 +1,6 @@
 **Summary**
 
-This document describes a customization developed to provide the following capabilities
+This project describes a customization developed to provide the following capabilities
 * an account repository that contains accounts, linked or otherwise, across all onboarded applications
 * actionable rogue account/ rogue change detection
   
