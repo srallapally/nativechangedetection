@@ -16,4 +16,4 @@ This project describes a customization developed to provide the following capabi
 * There exists a way to detect changes in account attributes, regardless of whether they are entitlements or not
 * There exists a way to take action on accounts that have unsanctioned changes
 
-![Solution details](./nativechangedetection/x.md)
+![Solution details](nativechangedetection/Native Change Detection .md)
